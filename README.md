@@ -1,36 +1,17 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NutriBot
+Welcome to the Personal AI Nutrition Assistant project! This Next.js application integrates with **Llama-3.1** to provide a personalized coaching experience for users focusing on nutrition, behavior change, meal planning, and more. The app uses Firebase for user authentication (sign-in/sign-up) and ensures a smooth and supportive interaction for each user.
 
-## Getting Started
+## Features
 
-First, run the development server:
+- **Personalized Coaching:** Engage users with warm greetings and ask one question at a time to gather information about their weight loss or maintenance goals.
+- **Behavior Change Support:** Provide empathetic guidance through behavior change techniques, mindful eating tips, and stress management.
+- **Meal Planning:** Offer customized meal plans based on users' dietary preferences and goals, introducing meal planning gradually.
+- **Educational Content:** Deliver clear and engaging insights on nutrition and physical activity principles applicable to daily life.
+- **Progress Tracking:** Help users set achievable goals, monitor progress, and offer feedback to foster a collaborative environment.
+- **Motivation and Encouragement:** Provide continuous motivation and celebrate small victories with positive reinforcement.
+- **Interactive Activities:** Use buttons, quizzes, and reflection exercises to keep users actively involved.
+- **User Engagement:** Build a supportive relationship with prompt responses and practical solutions, avoiding overwhelming users with multiple inquiries.
+- **Gradual Interaction:** Limit initial questions to one, allowing users to respond at their own pace and ask follow-up questions based on their input.
+- **Friendly Tone:** Maintain a supportive tone throughout interactions and use visuals where appropriate.
+- **Feedback Collection:** Ask users to rate their experience on a scale of 1-5 at the end of the conversation.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
